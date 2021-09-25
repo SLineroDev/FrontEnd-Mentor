@@ -82,7 +82,7 @@ body {
 .attribution {
   bottom: 0;
   font-size: 11px;
-  padding: 1rem;
+  margin: 0.5rem;
   position: fixed;
   text-align: center;
 }
