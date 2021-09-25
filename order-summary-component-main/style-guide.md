@@ -14,6 +14,15 @@ The designs were created to the following widths:
 - Pale blue: hsl(225, 100%, 94%)
 - Bright blue: hsl(245, 75%, 52%)
 
+- Pale blue: #E0E8FF
+- Bright blue: #3828E0
+- Card background: #fff
+- Plan selection background: #f8f9fe
+- Music icon background: #dfe5fb
+- Music icon color: #727ea8
+- Annual Plan font color: #223153
+- Payment button: #3828E0
+
 ### Neutral
 
 - Very pale blue: hsl(225, 100%, 98%)

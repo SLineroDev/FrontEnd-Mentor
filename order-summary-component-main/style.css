@@ -1,0 +1,105 @@
+body {
+  background-color: #dfe8ff;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  border-radius: 1rem;
+  background-color: white;
+  width: 350px;
+}
+
+@media (max-width: 375px) {
+  #card {
+    width: 100%;
+    margin: 1rem;
+  }
+}
+
+#card header img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+
+#card_content {
+  padding: 2rem;
+  text-align: center;
+}
+
+#card_content h1 {
+  font-weight: 900;
+  margin: 0;
+}
+
+#card_content > div {
+  margin-top: 1.5rem;
+}
+
+.gray-text {
+  color: #707587;
+}
+
+#card_content_plan {
+  background-color: #f8f9fe;
+  border-radius: 0.5rem;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#card_plan_price {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#button_proceed {
+  color: white;
+  background-color: #3828e0;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  -webkit-box-shadow: 0px 10px 25px 0px #958ee4;
+  box-shadow: 0px 10px 25px 0px #958ee4;
+}
+
+#button_cancel {
+  color: #707587;
+  padding: 0.7rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+.attribution {
+  bottom: 0;
+  font-size: 11px;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+}
+
+.attribution a {
+  color: rgb(81, 216, 121);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.padding-1 {
+  padding: 0 1rem;
+}
