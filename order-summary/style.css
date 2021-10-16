@@ -55,6 +55,11 @@ body {
   align-items: center;
 }
 
+#card_content_plan > a:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
 #card_plan_price {
   padding-left: 1rem;
   display: flex;
@@ -71,11 +76,21 @@ body {
   box-shadow: 0px 10px 25px 0px #958ee4;
 }
 
+#button_proceed:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
 #button_cancel {
   color: #707587;
   padding: 0.7rem;
   font-weight: 700;
   margin-top: 1.5rem;
+}
+
+#button_cancel:hover {
+  color: black;
+  cursor: pointer;
 }
 
 .attribution {
