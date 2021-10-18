@@ -1,0 +1,32 @@
+body {
+  Font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+}
+
+main {
+  align-items: center;
+  background: hsl(244, 38%, 16%);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+main > section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  padding: 4rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
