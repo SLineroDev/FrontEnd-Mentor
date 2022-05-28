@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  display: grid;
+  place-content: center;
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+main {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  margin: 1rem 2rem;
+  height: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+img {
+  height: 100%;
+}
+
+img::after {
+  content: "";
+  background-color: hsl(277, 64%, 61%);
+  background-size: cover;
+  background-position: center;
+}
+
+#card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+}
+
+#card-content>p,
+#card-content>div {
+  font-size: 15px;
+}
+
+.highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+#stats {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-heading {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display-column {
+  flex-direction: column;
+}
