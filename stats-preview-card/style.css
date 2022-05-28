@@ -19,6 +19,7 @@ main {
   height: 350px;
   border-radius: 5px;
   overflow: hidden;
+  margin: 0 10rem;
 }
 
 h1 {
@@ -57,10 +58,12 @@ img::after {
 #stats {
   align-self: stretch;
   display: flex;
+  font-weight: bold;
   justify-content: space-between;
 }
 
 .stat-heading {
+  font-weight: normal;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
