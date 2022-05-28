@@ -85,9 +85,11 @@ img::after {
   flex-direction: column;
 }
 
-.attribution {}
+.attribution {
+  padding-bottom: 1rem;
+}
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   #card {
     display: flex;
     flex-flow: column-reverse;
