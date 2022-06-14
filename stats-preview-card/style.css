@@ -89,6 +89,10 @@ img::after {
   padding-bottom: 1rem;
 }
 
+a {
+  color: greenyellow;
+}
+
 @media screen and (max-width: 850px) {
   #card {
     display: flex;
