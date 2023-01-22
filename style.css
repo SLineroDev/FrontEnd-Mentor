@@ -70,9 +70,13 @@ body {
 }
 
 main {
-  border-top: 1px solid rgb(219, 229, 230);
   margin-top: 2rem;
   text-align: center;
+}
+
+header {
+  border-top: 1px solid rgb(219, 229, 230);
+  border-bottom: 1px solid rgb(219, 229, 230);
 }
 
 h1 {
@@ -88,7 +92,6 @@ h1 {
 }
 
 .challenges-grid {
-  border-top: 1px solid rgb(219, 229, 230);
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
