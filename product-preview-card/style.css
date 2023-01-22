@@ -105,6 +105,16 @@ body {
   padding: 1rem;
 }
 
+.back {
+  font-size: 11px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.back a {
+  color: #b57aaf;
+}
+
 .flex-group {
   display: flex;
   gap: 1rem;

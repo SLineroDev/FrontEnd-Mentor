@@ -38,7 +38,7 @@ body {
   margin: 0;
 }
 
-#card_content > div {
+#card_content>div {
   margin-top: 1.5rem;
 }
 
@@ -55,7 +55,7 @@ body {
   align-items: center;
 }
 
-#card_content_plan > a:hover {
+#card_content_plan>a:hover {
   color: #766cf1;
   text-decoration: none;
 }
@@ -93,15 +93,12 @@ body {
   cursor: pointer;
 }
 
-.attribution {
+.back {
   bottom: 0;
   font-size: 11px;
   margin: 0.5rem;
   position: fixed;
   text-align: center;
-}
-
-.attribution a {
   color: #3828e0;
 }
 

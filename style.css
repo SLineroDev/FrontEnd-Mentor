@@ -35,6 +35,16 @@ h3 {
     -0.1px 94px 79.7px -4.3px hsl(var(--shadow-color) / 0.1);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 img {
   max-width: 100%;
   display: block;
