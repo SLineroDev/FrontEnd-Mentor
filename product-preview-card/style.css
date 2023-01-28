@@ -38,7 +38,7 @@
 */
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
 }
 
 /*
@@ -102,12 +102,10 @@ body {
 
   display: grid;
   place-content: center;
-  padding: 1rem;
 }
 
 .back {
   font-size: 11px;
-  margin: 1rem;
   text-align: center;
 }
 
@@ -141,12 +139,13 @@ body {
   background-color: var(--clr-neutral-100);
   border-radius: 0.5rem;
   overflow: hidden;
-  max-width: 600px;
+  max-width: 375px;
+  margin: 1rem;
 }
 
 @media (min-width: 600px) {
   .product {
-    --content-padding: 2rem;
+    max-width: 600px;
     grid-template-columns: 1fr 1fr;
   }
 }
